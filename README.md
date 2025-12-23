@@ -2,7 +2,7 @@
 
 # Memoteca
 
-A Memoteca é um aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar,  deletar, filtrar e favoritar pensamentos, incluindo informações como conteúdo, autoria e data.
+A Memoteca é um aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar,  deletar, filtrar e favoritar pensamentos, incluindo informações como conteúdo, autoria e data. Foi desenvolvido durante a formação de JavaScript da Alura, com o objetivo de praticar **CRUD completo** utilizando **requisições HTTP**.
 
 ## 🔨 Funcionalidades do projeto
 
@@ -41,28 +41,36 @@ A Memoteca é um aplicativo organizador de pensamentos e frases que permite cada
 
 Você pode [acessar o figma do projeto aqui](https://www.figma.com/design/Sz1gmmemxqcB3amInL4Ndp/Rebrand-Memoteca-%7C-Curso-CRUD?node-id=148-26&t=FpdmfbiM1i1s6REQ-0).
 
-## 🛠️ Abrir e rodar o projeto
+## 🛠️ Como rodar o projeto localmente
 
-Para executar a API fake, você vai precisar do NodeJS; a versão utilizada foi a 20.12.2.
+Este projeto utiliza **JSON Server** para simular uma API REST.
 
-Instale o JSON Server globalmente (se ainda não estiver instalado):
+### 📌 Pré-requisitos
 
-```bash
+- Node.js (versão utilizada: 20.12.2)
+- JSON Server
+
+---
+
+### 1️⃣ Instalar o JSON Server
+
 npm install -g json-server
-```
 
-Para executar, abra um novo terminal e, dentro da pasta backend, execute:
+### 2️⃣ Rodar o backend (API fake)
 
-```bash
-npm start
-```
+Abra um terminal na pasta backend e execute:
 
-Acesse o backend localmente em seu navegador:
+json-server --watch db.json --port 3000
 
-http://localhost:3000
+A API ficará disponível em:
 
-Para executar o frontend, abra o projeto no Visual Studio Code. Com a extensão Live Server instalada, clique com o botão direito no arquivo index.html e selecione "Open with Live Server" no menu de contexto.
+http://localhost:3000/pensamentos
 
-Acesse o frontend localmente em seu navegador:
+### 3️⃣ Rodar o frontend
+
+Abra o projeto no Visual Studio Code.
+Com a extensão Live Server instalada, clique com o botão direito no arquivo index.html e selecione Open with Live Server.
+
+O frontend será acessado em:
 
 http://localhost:5500
