@@ -4,6 +4,16 @@
 
 A Memoteca é um aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar,  deletar, filtrar e favoritar pensamentos, incluindo informações como conteúdo, autoria e data. Foi desenvolvido durante a formação de JavaScript da Alura, com o objetivo de praticar **CRUD completo** utilizando **requisições HTTP**.
 
+## 🚀 Acesse o projeto
+
+O projeto está disponível online:
+
+🔗 **Frontend (GitHub Pages):**  
+https://yasmim123456.github.io/Memoteca/
+
+🔗 **API (Render):**  
+https://memoteca-3ew1.onrender.com/pensamentos
+
 ## 🔨 Funcionalidades do projeto
 
 `Cadastro de pensamentos`: Permite adicionar novos pensamentos à lista, inserindo informações como conteúdo e autoria.
@@ -26,9 +36,7 @@ A Memoteca é um aplicativo organizador de pensamentos e frases que permite cada
 
 `JavaScript`: Linguagem de programação utilizada para desenvolver a lógica do aplicativo.
 
-`Fetch API`: Utilizada para realizar requisições HTTP para comunicação com o servidor.
-
-`Axios`: Biblioteca usada para facilitar e simplificar as requisições HTTP.
+`Axios`: Biblioteca utilizada para realizar requisições HTTP para a API.
 
 `Node.js`: Plataforma utilizada para executar o ambiente de desenvolvimento.
 
@@ -36,41 +44,11 @@ A Memoteca é um aplicativo organizador de pensamentos e frases que permite cada
 
 `CSS`: Utilizado para estilização da interface do aplicativo.
 
+`Render`: Deploy da API.
+
+`GitHub Pages`: Deploy do frontend.
+
 
 ## 📁 Link do Figma
 
 Você pode [acessar o figma do projeto aqui](https://www.figma.com/design/Sz1gmmemxqcB3amInL4Ndp/Rebrand-Memoteca-%7C-Curso-CRUD?node-id=148-26&t=FpdmfbiM1i1s6REQ-0).
-
-## 🛠️ Como rodar o projeto localmente
-
-Este projeto utiliza **JSON Server** para simular uma API REST.
-
-### 📌 Pré-requisitos
-
-- Node.js (versão utilizada: 20.12.2)
-- JSON Server
-
----
-
-### 1️⃣ Instalar o JSON Server
-
-npm install -g json-server
-
-### 2️⃣ Rodar o backend (API fake)
-
-Abra um terminal na pasta backend e execute:
-
-json-server --watch db.json --port 3000
-
-A API ficará disponível em:
-
-http://localhost:3000/pensamentos
-
-### 3️⃣ Rodar o frontend
-
-Abra o projeto no Visual Studio Code.
-Com a extensão Live Server instalada, clique com o botão direito no arquivo index.html e selecione Open with Live Server.
-
-O frontend será acessado em:
-
-http://localhost:5500
